@@ -64,7 +64,7 @@ const Navbar = () => {
                     </div>
                     <div className="md:hidden m-5">
                         <button
-                            className="text-neutral-400 text-xl"
+                            className="text-[#21223d] text-xl"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
                             ☰
@@ -72,14 +72,14 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div
-                    className={`fixed inset-0 bg-[rgba(255, 255, 255, 0.9)] backdrop-blur-md z-[1000] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
+                    className={`fixed inset-0 bg-[#664b3962] backdrop-blur-md z-[1000] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
                     <button
-                        className="absolute top-5 right-5 text-xl text-neutral-400"
+                        className="absolute top-5 right-5 text-xl text-[#`21223d] font-bold"
                         onClick={() => setIsMenuOpen(false)}
                     >
                         ✕
                     </button>
-                    <ul className="flex flex-col justify-center items-center h-full gap-5 text-lg font-semibold text-neutral-400">
+                    <ul className="flex flex-col justify-center items-center h-full gap-5 text-lg font-semibold text-[#21223d]">
                         <li className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</li>
                         <li className="cursor-pointer" onClick={() => handleScrollTo("faq")}>FAQ</li>
                         {/* <li className="cursor-pointer" onClick={() => handleScrollTo("PS")}>Problem Statement</li> */}
