@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import "tailwindcss";
+
+
+body {
+  background-color: #E9D3B0;
+  background-blend-mode: overlay;
+  background-size: cover;
+  z-index: 10;
+  overflow-x: hidden;
+}
+
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cinzel-decorative-bold {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cinzel-decorative-black {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+#faq{
+  background: url('/Artemis_poster_design.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+.border-image-section {
+  border: 20px solid transparent; /* adjust thickness */
+  border-image-source: url('/sponsor-border.png');
+  border-image-slice: 100 fill; /* tweak slice as needed */
+  border-image-repeat: round; /* ensures all sides repeat nicely */
+  border-image-width: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .border-image-section {
+    border: 20px solid transparent; /* adjust thickness for smaller screens */
+    border-image-source: url('/sponsor-border.png');
+    border-image-width: 50px;
+    border-image-slice: 250 fill;
+    border-image-repeat: round;
+  }
+  
+}
+
+.font-primary {
+  font-family: 'Cormorant Garamond', serif;
+}
+
