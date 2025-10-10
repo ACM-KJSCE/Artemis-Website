@@ -1,4 +1,9 @@
 const HeroSectionNew = () => {
+
+  const handleClick = () => {
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSeLOtm51P0kRax9dLdycVkXHnts9k7G50XtO7pifa4--7h5Ow/viewform', '_blank');
+  }
+
   return (
     <div className='relative min-h-screen w-full flex items-center justify-center' id='Hero'>
         <img 
@@ -15,6 +20,9 @@ const HeroSectionNew = () => {
                     14th October 2025
                 </p>
                 <button 
+                  onClick={()=>{
+                    handleClick()
+                  }}
                   className='text-lg cursor-pointer rounded-xl sm:text-2xl md:text-3xl lg:text-4xl bg-[#4f3424] text-[#f5e9d9] px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4 font-bold border-4 border-[#3d2314] hover:scale-105 transition-all duration-300'
                 >
                     Register Now

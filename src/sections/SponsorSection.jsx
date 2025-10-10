@@ -25,9 +25,8 @@ const SponserSection = () => {
           viewport={{ once: true, amount: 0.5 }}
           className="flex flex-wrap gap-8 items-center justify-around"
         >
-          <img src="/sponsors/sponsor1.png" alt="Sponsor 1" className="md:h-30 h-20 object-contain" />
-          <img src="/sponsors/sponsor1.png" alt="Sponsor 1" className="md:h-30 h-20 object-contain" />
-          <img src="/sponsors/sponsor1.png" alt="Sponsor 1" className="md:h-30 h-20 object-contain" />
+          <img src="/sponsors/sponsor1.png" alt="FriendsOfFigmalogo" className="md:h-72 h-48 object-contain" />
+          <img src="/sponsors/sponsor2.png" alt="MillimoLogo" className="md:h-72 md:w-72 w-48 h-48 object-contain" />
         </motion.div>
       </div>
     </section>
