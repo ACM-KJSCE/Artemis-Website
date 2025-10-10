@@ -32,7 +32,7 @@ jobs:
         SSH_PORT: ${{ secrets.SSH_PORT }}
       run: |
         mkdir -p ~/.ssh
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/artemis
-        chmod 600 ~/.ssh/artemis
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/artemis_new
+        chmod 600 ~/.ssh/artemis_new
         ssh-keyscan -p $SSH_PORT $SSH_HOST >> ~/.ssh/known_hosts
-        scp -i ~/.ssh/artemis -P $SSH_PORT -r ./dist/* $SSH_USER@$SSH_HOST:~/artemis.kjsce.hosting.acm.org/
+        scp -i ~/.ssh/artemis_new -P $SSH_PORT -r ./dist/* $SSH_USER@$SSH_HOST:~/artemis.kjsce.hosting.acm.org/
