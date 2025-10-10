@@ -25,7 +25,7 @@ const Footer = () => {
               </li>
               <li className="flex sm:items-center sm:justify-center md:justify-start gap-3">
                 <MapPin className="w-fit sm:h-6 h-[30px] " />
-                <div className=' w-fit text-[15px] font-semibold '>KJ Somaiya School of Engineering, B-413</div>
+                <div className=' w-fit text-[15px] font-semibold '>KJ Somaiya School of Engineering</div>
               </li>
             </ul>
           </div>
