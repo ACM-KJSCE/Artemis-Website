@@ -13,46 +13,36 @@ const  FAQSection = () => {
         },
         {
             id: 2,
-            question: "Do we need to bring our own ideas?",
-            answer: "Yes. You can work on your own problem statement or select from the provided themes announced at the start of the hackathon."
-        },
-        {
-            id: 3,
             question: "Can we use frameworks like React, Vue, or Next.js?",
             answer: "Absolutely. Any frontend framework or library is allowed, as long as the final submission runs in a browser and demonstrates your UI/UX design and functionality."
         },
         {
-            id: 4,
+            id: 3,
             question: "Are we allowed to use backend services or APIs?",
             answer: "Yes. You may use any public APIs, mock APIs, or backend services. However, focus should remain on the frontend design, interactivity, and user experience."
         },
         {
-            id: 5,
+            id: 4,
             question: "What are the judging criteria?",
-            answer: "Projects will be evaluated on creativity, UI/UX design, responsiveness, interactivity, performance, and adherence to the theme."
+            answer: "Projects will be evaluated on creativity, UI/UX design, responsiveness, interactivity and performance."
         },
         {
-            id: 6,
+            id: 5,
             question: "Is there any restriction on using AI tools or design libraries?",
             answer: "No restrictions. You may use AI tools, component libraries, or design systems — originality of implementation and design thinking will still be key judging factors."
         },
         {
-            id: 7,
-            question: "Do we need to host our project?",
-            answer: "Yes. The final submission should be deployed online (e.g., Vercel, Netlify, or GitHub Pages) with a working demo link and a public GitHub repository."
-        },
-        {
-            id: 8,
+            id: 6,
             question: "Can we continue working after the hackathon ends?",
             answer: "No. All work must be completed within the official hackathon timeline. Post-deadline commits will not be considered."
         },
         {
-            id: 9,
+            id: 7,
             question: "Will there be any workshops or mentorship during the event?",
             answer: "Yes. Mentors will be available throughout the hackathon to guide teams on UI/UX, performance optimization, and frontend best practices."
         },
         {
-            id: 10,
+            id: 8,
             question: "What are the prizes and recognitions?",
             answer: "Top teams will receive cash prizes and certificates. Exceptional projects may also be featured on our official showcase page."
         }
