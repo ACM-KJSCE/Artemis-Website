@@ -8,46 +8,56 @@ const  FAQSection = () => {
     const faqs = [
         {
             id: 1,
-            question: "How many members in a team?",
-            answer: "Each team can have 2-3 members.",
+            question: "How many members can be in a team?",
+            answer: "Each team can have 2–3 members. On day team formation can also be done."
         },
         {
             id: 2,
-            question:
-                "Is there an option to upgrade from Basic to Intermediate or Advanced levels?",
-            answer: "No, SkillLoop follows a tiered purchase model. Each level (Basic, Intermediate, Advanced) must be purchased separately.",
+            question: "Do we need to bring our own ideas?",
+            answer: "Yes. You can work on your own problem statement or select from the provided themes announced at the start of the hackathon."
         },
         {
             id: 3,
-            question: "Will I receive a certificate for completing a course?",
-            answer: "Yes! Every learner receives a completion certificate for each level they complete — Basic, Intermediate, and Advanced.",
+            question: "Can we use frameworks like React, Vue, or Next.js?",
+            answer: "Absolutely. Any frontend framework or library is allowed, as long as the final submission runs in a browser and demonstrates your UI/UX design and functionality."
         },
         {
             id: 4,
-            question: "Can I take multiple courses at once?",
-            answer: "Yes, you can enroll in as many SkillLoop courses as you'd like. Each course is sold and tracked separately.",
+            question: "Are we allowed to use backend services or APIs?",
+            answer: "Yes. You may use any public APIs, mock APIs, or backend services. However, focus should remain on the frontend design, interactivity, and user experience."
         },
         {
             id: 5,
-            question: "Can I do the internship without purchasing any course?",
-            answer: "Yes. Purchasing a course is not mandatory to apply for the internship. However, interns who enroll in a course gain deeper product knowledge, which often helps them perform better in HR or sales roles.",
+            question: "What are the judging criteria?",
+            answer: "Projects will be evaluated on creativity, UI/UX design, responsiveness, interactivity, performance, and adherence to the theme."
         },
         {
             id: 6,
-            question: "Is the internship remote?",
-            answer: "Yes. All SkillLoop internships are 100% remote — allowing flexibility while delivering real-world exposure.",
+            question: "Is there any restriction on using AI tools or design libraries?",
+            answer: "No restrictions. You may use AI tools, component libraries, or design systems — originality of implementation and design thinking will still be key judging factors."
         },
         {
             id: 7,
-            question: "Will I get a Letter of Recommendation (LOR)?",
-            answer: "Yes, top-performing interns will be awarded an LOR from the SkillLoop leadership, in addition to their certificate and stipend.",
+            question: "Do we need to host our project?",
+            answer: "Yes. The final submission should be deployed online (e.g., Vercel, Netlify, or GitHub Pages) with a working demo link and a public GitHub repository."
         },
         {
             id: 8,
-            question: "Will I get a Pre-Placement Offer (PPO)?",
-            answer: "Yes. All interns are eligible for a PPO of up to ₹8 LPA, based on performance during the internship and final interview with the SkillLoop core team.",
+            question: "Can we continue working after the hackathon ends?",
+            answer: "No. All work must be completed within the official hackathon timeline. Post-deadline commits will not be considered."
         },
+        {
+            id: 9,
+            question: "Will there be any workshops or mentorship during the event?",
+            answer: "Yes. Mentors will be available throughout the hackathon to guide teams on UI/UX, performance optimization, and frontend best practices."
+        },
+        {
+            id: 10,
+            question: "What are the prizes and recognitions?",
+            answer: "Top teams will receive cash prizes and certificates. Exceptional projects may also be featured on our official showcase page."
+        }
     ];
+
 
     const toggleFaq = (id) => {
         setOpenFaq(openFaq === id ? null : id);
