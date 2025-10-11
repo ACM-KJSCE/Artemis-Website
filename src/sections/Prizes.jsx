@@ -83,7 +83,7 @@ export default function Prizes() {
 
       {/* Total Prize Pool */}
       <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#21223d] flex justify-center">
-        <img src="/9k.png" alt="Total Prize Pool Of ₹9K+" className="h-72 md:h-96" />
+        <img src="/12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
       </div>
 
       {/* Prize Cards Section */}

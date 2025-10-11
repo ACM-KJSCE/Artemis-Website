@@ -13,36 +13,51 @@ const  FAQSection = () => {
         },
         {
             id: 2,
+            question: "What is the format of the hackathon?",
+            answer: "The hackathon consists of 2 rounds. The first round will be coding round. The second round will be a presentation round where the top selected teams will present their projects to the judges. The details of the rounds will be shared on the day of the event."
+        },
+        {
+            id: 3,
+            question: "Do I need to bring my own device?",
+            answer: "It is recommended to bring your own laptop for development. However, if not possible, we can provide limited devices on a first-come, first-served basis."
+        },
+        {
+            id: 4,
+            question: "Will there be internet access?",
+            answer: "Yes, we will provide Wi-Fi access for all participants."
+        },
+        {
+            id: 5,
             question: "Can we use frameworks like React, Vue, or Next.js?",
             answer: "Absolutely. Any frontend framework or library is allowed, as long as the final submission runs in a browser and demonstrates your UI/UX design and functionality."
         },
         {
-            id: 3,
+            id: 6,
             question: "Are we allowed to use backend services or APIs?",
             answer: "Yes. You may use any public APIs, mock APIs, or backend services. However, focus should remain on the frontend design, interactivity, and user experience."
         },
         {
-            id: 4,
+            id: 7,
             question: "What are the judging criteria?",
             answer: "Projects will be evaluated on creativity, UI/UX design, responsiveness, interactivity and performance."
         },
         {
-            id: 5,
+            id: 8,
             question: "Is there any restriction on using AI tools or design libraries?",
             answer: "No restrictions. You may use AI tools, component libraries, or design systems — originality of implementation and design thinking will still be key judging factors."
         },
         {
-            id: 6,
+            id: 9,
             question: "Can we continue working after the hackathon ends?",
             answer: "No. All work must be completed within the official hackathon timeline. Post-deadline commits will not be considered."
         },
         {
-            id: 7,
+            id: 10,
             question: "Will there be any workshops or mentorship during the event?",
             answer: "Yes. Mentors will be available throughout the hackathon to guide teams on UI/UX, performance optimization, and frontend best practices."
         },
         {
-            id: 8,
+            id: 11,
             question: "What are the prizes and recognitions?",
             answer: "Top teams will receive cash prizes and certificates. Exceptional projects may also be featured on our official showcase page."
         }
