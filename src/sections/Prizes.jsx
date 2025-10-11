@@ -83,36 +83,36 @@ export default function Prizes() {
 
       {/* Total Prize Pool */}
       <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#21223d] flex justify-center">
-        <img src="/9k.png" alt="Total Prize Pool Of ₹9K+" className="h-72 sm:h-72 md:h-96" />
+        <img src="/9k.png" alt="Total Prize Pool Of ₹9K+" className="h-72 md:h-96" />
       </div>
 
       {/* Prize Cards Section */}
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-8 sm:gap-10 mt-10 sm:mt-20">
-        {/* Second Prize */}
-        <Prize
-          rank={prize[0].rank}
-          title="Second"
-          amount={prize[0].amount}
-          borderColor={prize[0].borderColors}
-          className="sm:translate-y-0"
-        />
-
-        {/* First Prize */}
+      <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-8 md:gap-10 mt-10 md:mt-20">
+        {/* First Prize - appears 1st on mobile, middle on desktop */}
         <Prize
           rank={prize[1].rank}
           title="First"
           amount={prize[1].amount}
           borderColor={prize[1].borderColors}
-          className="sm:translate-y-[-75px]"
+          className="order-1 md:order-2 md:translate-y-[-75px]"
         />
 
-        {/* Third Prize */}
+        {/* Second Prize - appears 2nd on mobile, left on desktop */}
+        <Prize
+          rank={prize[0].rank}
+          title="Second"
+          amount={prize[0].amount}
+          borderColor={prize[0].borderColors}
+          className="order-2 md:order-1 md:translate-y-0"
+        />
+
+        {/* Third Prize - appears 3rd on mobile, right on desktop */}
         <Prize
           rank={prize[2].rank}
           title="Third"
           amount={prize[2].amount}
           borderColor={prize[2].borderColors}
-          className="sm:translate-y-0"
+          className="order-3 md:order-3 md:translate-y-0"
         />
       </div>
     </section>
