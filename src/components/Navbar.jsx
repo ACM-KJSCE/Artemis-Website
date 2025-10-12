@@ -54,6 +54,7 @@ const Navbar = () => {
                     <div className="hidden md:flex">
                         <ul className={`flex gap-10 m-5 text-[20px] font-bold whitespace-nowrap text-[#f5e9d9]`}>
                             <li className="cursor-pointer hover:scale-110 transition-transform duration-300 capitalize"  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</li>
+                            <li className="cursor-pointer" onClick={() => handleScrollTo("rules")}>Rules</li>
                             <li className="cursor-pointer hover:scale-110" onClick={() => handleScrollTo("faq")}>FAQ</li>
                             {/* <li className="cursor-pointer hover:scale-110" onClick={() => handleScrollTo("PS")}>Problem Statement</li> */}
                         </ul>
@@ -77,6 +78,7 @@ const Navbar = () => {
                     </button>
                     <ul className="flex flex-col justify-center items-center h-full gap-5 text-lg font-semibold text-[#f5e9d9]">
                         <li className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</li>
+                        <li className="cursor-pointer" onClick={() => handleScrollTo("rules")}>Rules</li>
                         <li className="cursor-pointer" onClick={() => handleScrollTo("faq")}>FAQ</li>
                         {/* <li className="cursor-pointer" onClick={() => handleScrollTo("PS")}>Problem Statement</li> */}
 
