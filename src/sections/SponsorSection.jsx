@@ -27,6 +27,7 @@ const SponserSection = () => {
         >
           <img src="/sponsors/sponsor1.png" alt="FriendsOfFigmalogo" className="md:h-72 h-48 object-contain" />
           <img src="/sponsors/sponsor2.png" alt="MillimoLogo" className="md:h-72 md:w-72 w-48 h-48 object-contain" />
+          <img src="/sponsors/sponsor3.png" alt="Kudrati Kahumbo" className="md:h-72 md:w-72 w-48 h-48 object-contain" />
         </motion.div>
       </div>
     </section>
