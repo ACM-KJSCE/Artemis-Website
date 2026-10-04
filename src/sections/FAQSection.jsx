@@ -104,7 +104,8 @@ const  FAQSection = () => {
 //   };
 
   return (
-    <section className="py-16 lg:px-16 md:px-8 px-4" id="faq">
+    <section className="py-16 lg:px-16 md:px-8 px-4 poster-frame" id="faq">
+      <img src="/icarus.png" alt="" className="hidden xl:block absolute right-6 bottom-10 w-44 pointer-events-none" />
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center md:mb-16 mb-10">
@@ -113,7 +114,7 @@ const  FAQSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.5 }}
-            className="md:text-7xl sm:text-5xl text-4xl font-bold text-[#21223d] mb-4 leading-tight"
+            className="md:text-7xl sm:text-5xl text-4xl font-bold text-[#3B2A1B] mb-4 leading-tight"
           >
             FAQ
           </motion.h2>
@@ -132,7 +133,7 @@ const  FAQSection = () => {
             <motion.div
               key={faq.id}
               variants={faqVariants}
-              className="bg-[#E4CDA8] border shadow-md rounded-md border-b-2 border-[#21223d] overflow-hidden transition-all duration-300"
+              className="bg-[#E6CFA8] border shadow-md rounded-md border-b-2 border-[#3B2A1B] overflow-hidden transition-all duration-300"
             >
               {/* + button and question */}
               <button
@@ -140,14 +141,14 @@ const  FAQSection = () => {
                 className="w-full md:px-6 md:py-4 px-4 py-2 text-left transition-all duration-200"
               >
                 <div className="flex items-center justify-between">
-                  <h3 className="md:text-lg text-sm font-semibold text-[#21223d] pr-4">
+                  <h3 className="md:text-lg text-sm font-semibold text-[#3B2A1B] pr-4">
                     {faq.id}. {faq.question}
                   </h3>
                   <div className="flex-shrink-0">
                     <div className="w-8 h-8 rounded-full flex items-center justify-center transition-transform duration-300">
                       {openFaq === faq.id ? (
                         <svg
-                          className="w-4 h-4 text-[#21223d]"
+                          className="w-4 h-4 text-[#3B2A1B]"
                           fill="none"
                           stroke="currentColor"
                           strokeWidth={2}
@@ -157,7 +158,7 @@ const  FAQSection = () => {
                         </svg>
                       ) : (
                         <svg
-                          className="w-4 h-4 text-[#21223d]"
+                          className="w-4 h-4 text-[#3B2A1B]"
                           fill="none"
                           stroke="currentColor"
                           strokeWidth={2}
@@ -178,7 +179,7 @@ const  FAQSection = () => {
                 }`}
               >
                 <div className="px-6 pb-6">
-                  <p className="text-[#21223d] md:text-base text-xs leading-relaxed">{faq.answer}</p>
+                  <p className="text-[#3B2A1B] md:text-base text-xs leading-relaxed">{faq.answer}</p>
                 </div>
               </div>
             </motion.div>
