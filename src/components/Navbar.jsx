@@ -31,9 +31,9 @@ const Navbar = () => {
                 <div
                     className={`z-20 h-[80px] 
                     w-screen
-                    bg-[#4f3424]                    
+                    bg-[#3A2819]                    
                     border-b-4
-                    border-[#3d2314] 
+                    border-[#B8923F] 
                     flex 
                     justify-between 
                     items-center
@@ -52,7 +52,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="hidden md:flex">
-                        <ul className={`flex gap-10 m-5 text-[20px] font-bold whitespace-nowrap text-[#f5e9d9]`}>
+                        <ul className={`flex gap-10 m-5 text-[20px] font-bold whitespace-nowrap text-[#F1DDA8]`}>
                             <li className="cursor-pointer hover:scale-110 transition-transform duration-300 capitalize"  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</li>
                             <li className="cursor-pointer" onClick={() => handleScrollTo("rules")}>Rules</li>
                             <li className="cursor-pointer hover:scale-110" onClick={() => handleScrollTo("faq")}>FAQ</li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     </div>
                     <div className="md:hidden m-5">
                         <button
-                            className="text-[#f5e9d9] text-xl"
+                            className="text-[#F1DDA8] text-xl"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                         >
                             ☰
@@ -69,14 +69,14 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div
-                    className={`fixed inset-0 bg-[#664b3962] backdrop-blur-md z-[1000] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
+                    className={`fixed inset-0 bg-[#3A281970] backdrop-blur-md z-[1000] transform transition-transform duration-300 ease-in-out ${isMenuOpen ? "translate-x-0" : "-translate-x-full"}`}>
                     <button
-                        className="absolute top-5 right-5 text-xl text-[#`f5e9d9] font-bold"
+                        className="absolute top-5 right-5 text-xl text-[#F1DDA8] font-bold"
                         onClick={() => setIsMenuOpen(false)}
                     >
                         ✕
                     </button>
-                    <ul className="flex flex-col justify-center items-center h-full gap-5 text-lg font-semibold text-[#f5e9d9]">
+                    <ul className="flex flex-col justify-center items-center h-full gap-5 text-lg font-semibold text-[#F1DDA8]">
                         <li className="cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</li>
                         <li className="cursor-pointer" onClick={() => handleScrollTo("rules")}>Rules</li>
                         <li className="cursor-pointer" onClick={() => handleScrollTo("faq")}>FAQ</li>

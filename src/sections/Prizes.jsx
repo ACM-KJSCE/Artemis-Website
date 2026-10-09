@@ -43,7 +43,7 @@ const rupeeIcon = [
 
 export default function Prizes() {
   return (
-    <section id="Prize" className="relative py-16 lg:px-16 md:px-8 px-4 overflow-hidden">
+    <section id="Prize" className="relative py-16 lg:px-16 md:px-8 px-4 overflow-hidden poster-frame">
       {/* Floating rupee icons with subtle parallax */}
       <ScrollParallax>
         {rupeeIcon.map((icon, idx) => (
@@ -74,7 +74,7 @@ export default function Prizes() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.5 }}
-          className="text-4xl sm:text-5xl md:text-7xl font-bold text-[#21223d] mb-4 leading-tight"
+          className="text-4xl sm:text-5xl md:text-7xl font-bold text-[#3B2A1B] mb-4 leading-tight"
         >
           Prize
         </motion.h2>
@@ -82,7 +82,7 @@ export default function Prizes() {
       </div>
 
       {/* Total Prize Pool */}
-      <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#21223d] flex justify-center">
+      <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#3B2A1B] flex justify-center">
         <img src="/12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
       </div>
 
