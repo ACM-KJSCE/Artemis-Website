@@ -8,7 +8,11 @@ const HeroSectionNew = () => {
     <div className='relative min-h-screen w-full flex items-center justify-center poster-frame' id='Hero'>
         <img 
           className='absolute inset-0 w-full h-full object-cover opacity-50' 
+<<<<<<< HEAD
           src='/Artemis_poster_design.png' 
+=======
+          src='/poster-bg.png' 
+>>>>>>> 0df2af1 (Fixed the image on the Landing Page)
           alt='Background Image'
         />
         <div className='relative w-full md:absolute md:inset-0 grid grid-cols-1 md:grid-cols-2 z-10 px-4 sm:px-6 md:px-8 md:mt-0 mt-[100px] pb-10 md:pb-0'>
@@ -30,7 +34,7 @@ const HeroSectionNew = () => {
             </div>
             <div className='flex justify-center items-center mt-8 md:mt-12 lg:mt-24'>
                 <img 
-                  src='/hero_image.webp' 
+                  src='/hero-statue.webp' 
                   alt='Hero Image' 
                   className='w-full sm:w-4/5 md:w-3/4 lg:w-4/5 h-auto max-w-[300px] sm:max-w-[500px] md:max-w-[600px]'
                 />

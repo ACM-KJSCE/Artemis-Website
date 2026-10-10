@@ -118,7 +118,7 @@ const  FAQSection = () => {
           >
             FAQ
           </motion.h2>
-          <img src="/design_element.png" alt="design element" className="mx-auto w-72" />
+          <img src="/design-element-sepia.png" alt="design element" className="mx-auto w-72" />
         </div>
 
         {/* FAQ Items */}

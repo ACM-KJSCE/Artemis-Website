@@ -51,7 +51,11 @@ export default function RulesSection() {
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 viewport={{ once: true, amount: 0.5 }}
                 className="md:text-7xl sm:text-5xl text-4xl font-bold text-[#3B2A1B]  leading-tight">RULES</motion.p>
+<<<<<<< HEAD
                 <img src="/design_element.png" alt="design element" className="mx-auto w-72" />
+=======
+                <img src="/design-element-sepia.png" alt="design element" className="mx-auto w-72" />
+>>>>>>> 0df2af1 (Fixed the image on the Landing Page)
                 <p className="mt-[10px] text-[#3B2A1B] font-semibold ">Follow the sacred laws to walk the path of honor</p>
             </div>
             
@@ -74,7 +78,7 @@ export default function RulesSection() {
                     } `}
                     >
                     <img className=' absolute top-0  h-[100%] object-cover sm:object-none sm:w-[100%] opacity-10' 
-                    src='/bg2.png' 
+                    src='/rules-card-bg.png' 
                     alt='Background Image'/>
                     <div className="flex items-center gap-2 m-[20px] mb-[5px]">
                         <h3 className="text-2xl font-serif font-semibold text-[#3B2A1B] underline">

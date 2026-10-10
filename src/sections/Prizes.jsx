@@ -78,12 +78,16 @@ export default function Prizes() {
         >
           Prize
         </motion.h2>
-        <img src="/design_element.png" alt="design element" className="mx-auto w-40 sm:w-56 md:w-72" />
+        <img src="/design-element-sepia.png" alt="design element" className="mx-auto w-40 sm:w-56 md:w-72" />
       </div>
 
       {/* Total Prize Pool */}
       <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#3B2A1B] flex justify-center">
+<<<<<<< HEAD
         <img src="/12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
+=======
+        <img src="/prize-pool-12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
+>>>>>>> 0df2af1 (Fixed the image on the Landing Page)
       </div>
 
       {/* Prize Cards Section */}
