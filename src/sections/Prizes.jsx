@@ -83,11 +83,7 @@ export default function Prizes() {
 
       {/* Total Prize Pool */}
       <div className="text-center mb-10 text-lg sm:text-xl font-bold text-[#3B2A1B] flex justify-center">
-<<<<<<< HEAD
         <img src="/12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
-=======
-        <img src="/prize-pool-12k.png" alt="Total Prize Pool Of ₹12K+" className="h-72 md:h-96" />
->>>>>>> 0df2af1 (Fixed the image on the Landing Page)
       </div>
 
       {/* Prize Cards Section */}
