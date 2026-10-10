@@ -3,7 +3,7 @@ import { Globe, Instagram, Linkedin, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer id="Footer"className="relative bg-[#3A2819] opacity-85 text-[#F1DDA8] py-12 px-6 sm:px-8 lg:px-16 rounded-t-3xl shadow-2xl">
+    <footer id="Footer"className="relative footer-olympus bg-[#3A2819] opacity-85 text-[#F1DDA8] py-12 px-6 sm:px-8 lg:px-16 rounded-t-3xl shadow-2xl">
       
       <div className="absolute top-0 left-0 w-full h-16 footer-blur"></div>
       <div className="max-w-6xl mx-auto">
