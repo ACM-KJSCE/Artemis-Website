@@ -38,7 +38,7 @@ const Prize = ({
         boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.8)',
       }}
       transition={{ duration: 0.3 }}
-      className={`relative overflow-hidden rounded-xl bg-[#e9d3b0]  p-8 w-[320px] h-[380px] flex flex-col items-center justify-between border border-slate-900 ${className}`}
+      className={`relative overflow-hidden rounded-xl bg-[#E6CFA8]  p-8 w-[320px] h-[380px] flex flex-col items-center justify-between border border-[#3B2A1B] ${className}`}
     >
       {/* Subtle top accent */}
       <div className="absolute top-0 left-0 right-0 h-px line" />
@@ -52,7 +52,7 @@ const Prize = ({
 
       <div className="relative z-10 flex flex-col items-center justify-between h-full w-full">
         {/* Prize Rank */}
-        <div className='absolute top-6.5 font-bold text-3xl text-shadow-blue-950 '>
+        <div className='absolute top-6.5 font-bold text-3xl text-shadow-stone-900 '>
           {rank}
         </div>
         
@@ -67,7 +67,7 @@ const Prize = ({
 
         {/* Content */}
         <div className="space-y-4 text-center">
-          <h2 className="text-2xl font-semibold text-amber-600">
+          <h2 className="text-2xl font-semibold text-[#9A7420]">
             {title}
           </h2>
 
@@ -77,7 +77,7 @@ const Prize = ({
 
           <div className="w-16 h-px mx-auto divider" />
 
-          <p className="text-md text-[#21223d] max-w-[240px]">
+          <p className="text-md text-[#3B2A1B] max-w-[240px]">
             {subtitle}
           </p>
         </div>
