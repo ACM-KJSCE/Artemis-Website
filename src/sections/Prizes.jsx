@@ -5,7 +5,7 @@ import { ScrollParallax } from "react-just-parallax";
 const prize = [
   {
     rank: '2nd',
-    amount: '₹2500',
+    amount: '₹3000',
     borderColors: 'silver',
   },
   {
@@ -15,7 +15,7 @@ const prize = [
   },
   {
     rank: '3rd',
-    amount: '₹1500',
+    amount: '₹2000',
     borderColors: 'bronze',
   }
 ]
